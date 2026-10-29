@@ -1,0 +1,9 @@
+{
+  "name": "image-to-native-pptx-skill",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reference-image reconstruction with editable Office native objects and structural audit",
+  "license": "MIT",
+  "scripts": {"example": "node scripts/build_native.cjs examples/layout.json work/example.pptx", "test": "python3 -m unittest discover -s tests -v"},
+  "dependencies": {"pptxgenjs": "4.0.1", "pptx-automizer": "0.8.2"}
+}

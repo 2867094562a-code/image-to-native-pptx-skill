@@ -1,0 +1,4 @@
+/* Reuse complete editable slides from a native component/template library. */
+const path=require('path'),fs=require('fs'),{default:Automizer}=require('pptx-automizer');
+async function reuse(source,output,numbers){const out=path.resolve(output);fs.mkdirSync(path.dirname(out),{recursive:true});const a=new Automizer({templateDir:path.dirname(path.resolve(source)),outputDir:path.dirname(out),removeExistingSlides:true});const p=a.loadRoot(path.basename(source)).load(path.basename(source),'library');for(const n of numbers)p.addSlide('library',n);await p.write(path.basename(out));}
+if(require.main===module){const [source,output,spec]=process.argv.slice(2);if(!spec){console.error('node scripts/reuse_native.cjs source.pptx output.pptx 1,2');process.exit(2);}reuse(source,output,spec.split(',').map(Number)).catch(e=>{console.error(e.message);process.exit(1);});}module.exports={reuse};

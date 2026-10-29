@@ -1,0 +1,6 @@
+interface:
+  display_name: "Image to Native PPTX"
+  short_description: "Rebuild slide images as editable native PowerPoint objects"
+  default_prompt: "Use $image-to-native-pptx to rebuild these approved slide images as native editable PowerPoint slides and verify them in Office."
+policy:
+  allow_implicit_invocation: true

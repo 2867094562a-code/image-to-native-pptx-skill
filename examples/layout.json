@@ -1,0 +1,559 @@
+{
+  "title": "Native reconstruction example",
+  "width_px": 1280,
+  "height_px": 720,
+  "font": "Arial",
+  "slides": [
+    {
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "id": "title",
+          "type": "textbox",
+          "text": "Evidence makes growth visible",
+          "bbox": [
+            48,
+            30,
+            1180,
+            70
+          ],
+          "font_px": 44,
+          "color": "0A1C59",
+          "bold": true
+        },
+        {
+          "id": "courses-bg",
+          "type": "shape",
+          "bbox": [
+            48,
+            130,
+            270,
+            140
+          ],
+          "fill": "E0ECFF",
+          "geometry": "rect"
+        },
+        {
+          "id": "courses-v",
+          "type": "textbox",
+          "text": "12",
+          "bbox": [
+            66,
+            142,
+            234,
+            77
+          ],
+          "font_px": 44,
+          "color": "1762FF",
+          "bold": true
+        },
+        {
+          "id": "courses-l",
+          "type": "textbox",
+          "text": "Courses completed",
+          "bbox": [
+            66,
+            222.4,
+            234,
+            33.6
+          ],
+          "font_px": 18,
+          "color": "0A1C59",
+          "bold": false
+        },
+        {
+          "id": "projects-bg",
+          "type": "shape",
+          "bbox": [
+            338,
+            130,
+            270,
+            140
+          ],
+          "fill": "E0ECFF",
+          "geometry": "rect"
+        },
+        {
+          "id": "projects-v",
+          "type": "textbox",
+          "text": "8",
+          "bbox": [
+            356,
+            142,
+            234,
+            77
+          ],
+          "font_px": 44,
+          "color": "1762FF",
+          "bold": true
+        },
+        {
+          "id": "projects-l",
+          "type": "textbox",
+          "text": "Projects delivered",
+          "bbox": [
+            356,
+            222.4,
+            234,
+            33.6
+          ],
+          "font_px": 18,
+          "color": "0A1C59",
+          "bold": false
+        },
+        {
+          "id": "proof-bg",
+          "type": "shape",
+          "bbox": [
+            628,
+            130,
+            270,
+            140
+          ],
+          "fill": "E0ECFF",
+          "geometry": "rect"
+        },
+        {
+          "id": "proof-v",
+          "type": "textbox",
+          "text": "24",
+          "bbox": [
+            646,
+            142,
+            234,
+            77
+          ],
+          "font_px": 44,
+          "color": "1762FF",
+          "bold": true
+        },
+        {
+          "id": "proof-l",
+          "type": "textbox",
+          "text": "Native components",
+          "bbox": [
+            646,
+            222.4,
+            234,
+            33.6
+          ],
+          "font_px": 18,
+          "color": "0A1C59",
+          "bold": false
+        },
+        {
+          "id": "photo-frame",
+          "type": "shape",
+          "bbox": [
+            928,
+            130,
+            300,
+            220
+          ],
+          "fill": "E5EBF3",
+          "geometry": "rect"
+        },
+        {
+          "id": "photo-camera",
+          "type": "shape",
+          "bbox": [
+            1061,
+            218,
+            34,
+            23
+          ],
+          "fill": "none",
+          "geometry": "rect",
+          "stroke": "91A4BC"
+        },
+        {
+          "id": "photo-lens",
+          "type": "shape",
+          "bbox": [
+            1071,
+            223,
+            14,
+            14
+          ],
+          "fill": "none",
+          "geometry": "ellipse",
+          "stroke": "91A4BC"
+        },
+        {
+          "id": "photo-label",
+          "type": "textbox",
+          "text": "IMAGE PLACEHOLDER",
+          "bbox": [
+            938,
+            250,
+            280,
+            25
+          ],
+          "font_px": 16,
+          "color": "73869F",
+          "bold": false
+        },
+        {
+          "id": "knowledge-l",
+          "type": "textbox",
+          "text": "Knowledge",
+          "bbox": [
+            48,
+            320,
+            260.7,
+            30
+          ],
+          "font_px": 18,
+          "color": "0A1C59",
+          "bold": false
+        },
+        {
+          "id": "knowledge-track",
+          "type": "shape",
+          "bbox": [
+            324.5,
+            329,
+            395,
+            12
+          ],
+          "fill": "E0ECFF",
+          "geometry": "rect"
+        },
+        {
+          "id": "knowledge-value",
+          "type": "shape",
+          "bbox": [
+            324.5,
+            329,
+            316,
+            12
+          ],
+          "fill": "1762FF",
+          "geometry": "rect"
+        },
+        {
+          "id": "knowledge-pct",
+          "type": "textbox",
+          "text": "80%",
+          "bbox": [
+            735.3,
+            320,
+            102.7,
+            30
+          ],
+          "font_px": 16,
+          "color": "0A1C59",
+          "bold": false
+        },
+        {
+          "id": "practice-l",
+          "type": "textbox",
+          "text": "Practice",
+          "bbox": [
+            48,
+            375,
+            260.7,
+            30
+          ],
+          "font_px": 18,
+          "color": "0A1C59",
+          "bold": false
+        },
+        {
+          "id": "practice-track",
+          "type": "shape",
+          "bbox": [
+            324.5,
+            384,
+            395,
+            12
+          ],
+          "fill": "E0ECFF",
+          "geometry": "rect"
+        },
+        {
+          "id": "practice-value",
+          "type": "shape",
+          "bbox": [
+            324.5,
+            384,
+            276.5,
+            12
+          ],
+          "fill": "1762FF",
+          "geometry": "rect"
+        },
+        {
+          "id": "practice-pct",
+          "type": "textbox",
+          "text": "70%",
+          "bbox": [
+            735.3,
+            375,
+            102.7,
+            30
+          ],
+          "font_px": 16,
+          "color": "0A1C59",
+          "bold": false
+        },
+        {
+          "id": "roadmap-line",
+          "type": "line",
+          "bbox": [
+            108,
+            510,
+            1020,
+            0
+          ],
+          "color": "1762FF"
+        },
+        {
+          "id": "roadmap-n0",
+          "type": "shape",
+          "bbox": [
+            101,
+            503,
+            14,
+            14
+          ],
+          "fill": "1762FF",
+          "geometry": "ellipse"
+        },
+        {
+          "id": "roadmap-t0",
+          "type": "textbox",
+          "text": "Explore",
+          "bbox": [
+            48,
+            530,
+            120,
+            40
+          ],
+          "font_px": 18,
+          "color": "0A1C59",
+          "bold": true
+        },
+        {
+          "id": "roadmap-n1",
+          "type": "shape",
+          "bbox": [
+            611,
+            503,
+            14,
+            14
+          ],
+          "fill": "1762FF",
+          "geometry": "ellipse"
+        },
+        {
+          "id": "roadmap-t1",
+          "type": "textbox",
+          "text": "Validate",
+          "bbox": [
+            558,
+            530,
+            120,
+            40
+          ],
+          "font_px": 18,
+          "color": "0A1C59",
+          "bold": true
+        },
+        {
+          "id": "roadmap-n2",
+          "type": "shape",
+          "bbox": [
+            1121,
+            503,
+            14,
+            14
+          ],
+          "fill": "1762FF",
+          "geometry": "ellipse"
+        },
+        {
+          "id": "roadmap-t2",
+          "type": "textbox",
+          "text": "Grow",
+          "bbox": [
+            1068,
+            530,
+            120,
+            40
+          ],
+          "font_px": 18,
+          "color": "0A1C59",
+          "bold": true
+        },
+        {
+          "id": "curve",
+          "type": "freeform",
+          "bbox": [
+            50,
+            630,
+            1180,
+            35
+          ],
+          "fill": "none",
+          "stroke": "1762FF",
+          "stroke_px": 2,
+          "commands": [
+            [
+              "M",
+              0,
+              80
+            ],
+            [
+              "C",
+              25,
+              80,
+              35,
+              10,
+              50,
+              40
+            ],
+            [
+              "C",
+              65,
+              80,
+              75,
+              0,
+              100,
+              20
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "id": "title",
+          "type": "textbox",
+          "text": "Editable table and chart",
+          "bbox": [
+            48,
+            30,
+            1180,
+            70
+          ],
+          "font_px": 44,
+          "color": "0A1C59",
+          "bold": true
+        },
+        {
+          "id": "table",
+          "type": "table",
+          "bbox": [
+            48,
+            150,
+            560,
+            350
+          ],
+          "font_px": 22,
+          "values": [
+            [
+              "Capability",
+              "Evidence"
+            ],
+            [
+              "Knowledge",
+              "Course portfolio"
+            ],
+            [
+              "Practice",
+              "Project record"
+            ],
+            [
+              "Collaboration",
+              "Team feedback"
+            ]
+          ]
+        },
+        {
+          "id": "chart",
+          "type": "chart",
+          "bbox": [
+            660,
+            150,
+            560,
+            350
+          ],
+          "chart_type": "bar",
+          "series": [
+            {
+              "name": "Current",
+              "labels": [
+                "Knowledge",
+                "Practice",
+                "Teamwork"
+              ],
+              "values": [
+                3.6,
+                3.8,
+                4
+              ]
+            },
+            {
+              "name": "Target",
+              "labels": [
+                "Knowledge",
+                "Practice",
+                "Teamwork"
+              ],
+              "values": [
+                4.5,
+                4.5,
+                4.5
+              ]
+            }
+          ],
+          "colors": [
+            "1762FF",
+            "0A2A54"
+          ],
+          "options": {
+            "barDir": "bar",
+            "catAxisLabelFontSize": 14,
+            "valAxisLabelFontSize": 12,
+            "valAxisMinVal": 0,
+            "valAxisMaxVal": 5
+          }
+        },
+        {
+          "id": "band",
+          "type": "shape",
+          "bbox": [
+            48,
+            570,
+            1175,
+            90
+          ],
+          "fill": {
+            "colors": [
+              "0A2A54",
+              "1762FF"
+            ],
+            "angle": 0
+          }
+        },
+        {
+          "id": "note",
+          "type": "textbox",
+          "text": "Every label, shape, table and chart stays editable.",
+          "bbox": [
+            70,
+            589,
+            1120,
+            50
+          ],
+          "font_px": 27,
+          "color": "FFFFFF",
+          "bold": true
+        }
+      ]
+    }
+  ]
+}
